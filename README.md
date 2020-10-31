@@ -10,13 +10,13 @@ READme generator was created in order to streamline the process of creating a Re
 ![Horiseon online reputation management and social media marketing links.](./assets/images/webpage-image-3.png)
 
 ## Installation
-    Node JS, inquirer, fs
+    Node and NPM install inquirer
 ## Usage
-
+    For personal use 
 ## License
     none
 ## Contributions
-    
+    Joanna Grosshans, creator
 ## Tests
     none needed
 ## Questions
@@ -28,6 +28,5 @@ Please contact <joannagrosshans2@gmail.com> for additional Information.
  https://jgrossh2.github.io/readme-generate/.
 
 # Technologies used
- *HTML <br>
- *CSS <br>
- *Node JS
+ *JS <br>
+ *Node 
