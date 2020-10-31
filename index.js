@@ -110,9 +110,11 @@ const writeToFile = (fileName, data) => {
                 return;
             }
             resolve({
-                ok: true,
-                message: 'Generating README file',
+                ok:true,
+                message: 'File created!'
             });
+            console.log('Generating README file...')
+        
         });
     });
 };
