@@ -1,8 +1,7 @@
 const inquirer = require('inquirer');
-// const path = require('path');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
-const { setFlagsFromString } = require('v8');
+// const { setFlagsFromString } = require('v8');
 // array of questions for user
 
 const questions = [
@@ -102,7 +101,6 @@ const questions = [
 // function to write README file
 // to write file need data from inputs
 const writeToFile = (fileName, data) => {
-    // return fs.writeFileSync(path.join(process.cwd(),fileName), data)
     return new Promise((resolve, reject) => {
         fs.writeFile(fileName, data, err =>{
             if (err) {
