@@ -8,7 +8,6 @@ const badge = (license) => {
 function generateMarkdown(data) {
   return `
   # ${data.name}
-  ##
   ${badge(data.license)}
   
   ## Description
@@ -34,7 +33,7 @@ function generateMarkdown(data) {
     ${data.tests}
   ## Questions
   ${data.github} <br />
-  [GitHub](${data.profile}) <br />
+  [GitHub profile](${data.profile}) <br />
   Please contact <${data.email}> for additional Information.
 `;
 }
