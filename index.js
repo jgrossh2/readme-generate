@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 // const path = require('path');
 const fs = require('fs');
-const generateMarkdown = require('./Develop/utils/generateMarkdown.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 const { setFlagsFromString } = require('v8');
 // array of questions for user
 
