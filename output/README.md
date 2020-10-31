@@ -1,29 +1,29 @@
 
-  # readme generator
-  ![license badge](<https://img.shields.io/badge/License-GNU GPLv3-blue.svg>)
+  # Readme generator
+  ![license badge](<https://img.shields.io/badge/License-MIT-blue.svg>)
   
   ## Description
-   generate Readme files
+   generates Readme files
   
   ## Table of Contents
   * [Installation](#installation) <br />
   * [Usage](#usage) <br />
   * [License](#license) <br />
-  * [Contributions](#contributions) <br />
+  * [Contributors](#contributions) <br />
   * [Tests](#tests) <br />
   * [Questions](#questions) <br />
   
   ## Installation
-    npm install
+    npm install needed
   ## Usage
-    personal use
+    personal use, run node index js in command line
   ## License
-    GNU GPLv3
-  ## Contributions
+    MIT
+  ## Contributors
     Joanna Grosshans
   ## Tests
     none
   ## Questions
   jgrossh2 <br />
-  [GitHub profile](jgrossh2.git) <br />
+  [GitHub profile](https://github.com/jgrossh2/readme-generate) <br />
   Please contact <joannagrosshans2@gmail.com> for additional Information.
