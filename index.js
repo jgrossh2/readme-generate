@@ -104,7 +104,7 @@ const questions = [
 const writeToFile = (fileName, data) => {
     // return fs.writeFileSync(path.join(process.cwd(),fileName), data)
     return new Promise((resolve, reject) => {
-        fs.writeFile("output/README.md", (fileName, data), err =>{
+        fs.writeFile(fileName, data, err =>{
             if (err) {
                 reject(err);
                 return;
@@ -124,6 +124,5 @@ function init() {
         writeToFile("output/README.md", generateMarkdown({...inquirerResponses}))
     })
 }
-
 // function call to initialize program
 init();
