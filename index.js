@@ -1,7 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
-// const { setFlagsFromString } = require('v8');
 // array of questions for user
 
 const questions = [
@@ -44,7 +43,7 @@ const questions = [
         {
             type: 'input',
             name: 'contributors',
-            message: 'Please list the contributions for this project.',
+            message: 'Please list the contributors for this project.',
         },
         { 
             type: 'input',
