@@ -23,9 +23,6 @@ jgrossh2 <br />
 [GitHub](https://github.com/jgrossh2/readme-generate) <br />
 Please contact <joannagrosshans2@gmail.com> for additional Information.
 
-# Links
- https://jgrossh2.github.io/readme-generate/.
-
 # Technologies used
  *JS <br>
  *Node 
